@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .section, .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section-text {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+/* Estilos específicos para las imágenes */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 24%;
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.image p {
+    margin-top: 5px;
+}
